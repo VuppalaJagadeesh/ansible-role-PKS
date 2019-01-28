@@ -1,0 +1,106 @@
+product-name: pivotal-container-service
+product-properties:
+  .pivotal-container-service.pks_tls:
+    value:
+      cert_pem: "-----BEGIN CERTIFICATE-----\nMIIDfDCCAmSgAwIBAgIVALoho+RjZ5V/3PI22jZ4v7TzzA3pMA0GCSqGSIb3DQEB\nCwUAMB8xCzAJBgNVBAYTAlVTMRAwDgYDVQQKDAdQaXZvdGFsMB4XDTE5MDEyMTA5\nMDAzNVoXDTIxMDEyMTA5MDAzNVowPDELMAkGA1UEBhMCVVMxEDAOBgNVBAoMB1Bp\ndm90YWwxGzAZBgNVBAMMEmFwaS5wa3MuY29ycC5sb2NhbDCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAMHTg9B/xvEUz2Rpi6DsXukZtuHNsvWVi6h/QB6M\njrhA6q9TeQmvDCI2QyENIyoj0bc4SycqLTDPxFd2XiggitECyux7uDH1k1HPw0VR\nlKXobMVya1lxNzbyBRnpjz7cm7zF1FNI+P0VJgQf48PGHgNoME717PSxV4ve7VLz\nBuNUAZBDarUx9dB7+eU72Mh6TADRGPCocoUdzOBi3qkkUzD8LDve/qTMZKsuBv/C\nU45/qksKb4zyea5yFBB6JdPqSl4dMRlPJ+XilYDbLy+k0iHQfs+3SYisDM3e78GF\n/g95Az58u5Q9Kod0O/vXbAK5tL+4+orakCLJqDrY6WKUiZ8CAwEAAaOBkTCBjjAd\nBgNVHQ4EFgQUIqP4OG02NgaWnoGTkM93/mN7wF4wHwYDVR0jBBgwFoAU/oly6Zx7\ne33Rh3ErZrSnGZIUrIAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA4G\nA1UdDwEB/wQEAwIHgDAdBgNVHREEFjAUghJhcGkucGtzLmNvcnAubG9jYWwwDQYJ\nKoZIhvcNAQELBQADggEBAI9275mgT/Ktt968+BBsc/iUgcdgd3w8YF1tbdnFBrsy\n/UFPHVSZzGGdZ4hDO+HR6DFdDgmNs6lriPjX9hSBcCJxpxq0dtf7YIdSdspCB380\nzmeMdNPsN9gJ6zniAvLiSmFZrnadCu+z9PVGBOjAK8vwLMW80no9tQT4LKyN7XRz\ncCuBUNsY9LTAp/8MeJVf9IAngkOY5uFgg/SLYvDRwDAJJRWwdBoPIGe8K4xj4z0X\nkEDABoL1RutYb/r1yO6YJXKh94x3AaLi6iE5nQUBi9wlsn/quo6h87Mc8Kqg73Re\nfP3QgPqMUfHWX1F52WmX886gFQgr9Aw0VJzWjYzbudU=\n-----END CERTIFICATE-----\n"
+      private_key_pem: "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAwdOD0H/G8RTPZGmLoOxe6Rm24c2y9ZWLqH9AHoyOuEDqr1N5\nCa8MIjZDIQ0jKiPRtzhLJyotMM/EV3ZeKCCK0QLK7Hu4MfWTUc/DRVGUpehsxXJr\nWXE3NvIFGemPPtybvMXUU0j4/RUmBB/jw8YeA2gwTvXs9LFXi97tUvMG41QBkENq\ntTH10Hv55TvYyHpMANEY8KhyhR3M4GLeqSRTMPwsO97+pMxkqy4G/8JTjn+qSwpv\njPJ5rnIUEHol0+pKXh0xGU8n5eKVgNsvL6TSIdB+z7dJiKwMzd7vwYX+D3kDPny7\nlD0qh3Q7+9dsArm0v7j6itqQIsmoOtjpYpSJnwIDAQABAoIBAHV4IpAvkLu1mAfM\nK9KIzvDJI9xwFUDftHeXP54EI88pkNJXbajfzSPC7SZP1vsIIGbBmFKRLjhCA0Xa\nuC/roRYRcjimtriYlANmPnt5ePSgC6QSt1rK0eLcBRlyQt2fSEe9QfSD6ltAAP1I\n8npJTRFViMmiJE0cWemsXvsBzS/iQBwS067DjnvxjQT/7e6qXrvqkiCmdKKASQCJ\nvFVHeC1tUychsYBI2rP9UwEGTbIe96bV6KWjLmtYDKfiaK6E4vymnirghnhjD51T\nhf0Z3z9hvWpHSGdO3pmXpG29IdEyIPtzwws5AKWrVbH5N2uPQnG1Sbv99T3JAyzr\nSabFOzECgYEA7+tMA5pEXlvERkjlTlfxvHBMkBRywkkhP+k43PJNqHdraxWlRL98\nLR35CLns7EdTAp6kXluFCBsoZAxR/7lZMDuv8rzB1FXfqWRZ7QwnhH7AUfF3hR/g\nE2+KbWOQp2cR0PazHUi9rXUThWq5Y/Oe4qq1o64wQKhHKYG9Jfn0ifkCgYEAztFS\nvy67nqo7hUqXyWmdnxOS89Fy5BSWSV//i8js3jDqdmt5fDbvHnRmIdD1mxhnOYS5\nclUxhynkQhr3XGLpULqdfNhmaf4gJSs86RzH5GjjYB1Merd490ie8G46pBiBlQzx\nnvjFxnDE3S20to2vhqwrX+CKdnyuH5QNMyMgVlcCgYAKnrrFqg1+s8czaUSlPCVa\nNwpcklsmGICdSKCYvy0K2QZrPhELwwInKR198mT3bIzTH9ycxKZV3oXiL91tWXIG\nPY4jS5G06Xw2DlggsxoItmei+PJWdTvBAH37K54amuhh/JmfITosNHOBw2CjeQQ+\neloB/dLq+cf0oWaTCMZ3WQKBgQC5B8tZIi1XWYPgz4iW+Pe8311E56k7ZzPBt7JA\nVGWer/LEOYk52Uf7XjYVoQZrWNzZN+ZV5ORnwdHmVovhythkkmDd1hliUKpftpxL\nDqXDsxdh4TSQQd9mlUElZ+js8MPWHvt4t6bxz+hA3WhlPsO/3/76S0B1mzyJIgLh\nMlb3BwKBgCXgGmIRrQhW7ecXlPzb6uuAApEDh/lM5387GlxKTytLomvT2ugv53wC\nQzSO8ylehW1SX8G2KeCSK1I4DXz8eLKxzEG1vJSaUKu2zUKjz5h6jtpuDH7nc6Ru\niA8Wxhc2MH7ZGttQxogeyDvmHluQrMdpmqOjEpqn0XGw87Cfmled\n-----END RSA PRIVATE KEY-----\n"
+  .properties.pks_api_hostname:
+    value: api.pks.corp.local
+  .properties.cloud_provider:
+    value: vSphere
+  .properties.cloud_provider.vsphere.vcenter_dc:
+    value: RegionA01
+  .properties.cloud_provider.vsphere.vcenter_ds:
+    value: RegionA01-NFS01-COMP
+  .properties.cloud_provider.vsphere.vcenter_ip:
+    value: 192.168.110.22
+  .properties.cloud_provider.vsphere.vcenter_master_creds:
+    value:
+      identity: administrator@vsphere.local
+      password: VMware1!
+  .properties.cloud_provider.vsphere.vcenter_vms:
+    value: pks_vms
+  .properties.network_selector:
+    value: nsx  
+  .properties.network_selector.nsx.nsx-t-superuser-certificate: 
+    value: 
+      cert_pem: "-----BEGIN CERTIFICATE-----\nMIIC1jCCAb6gAwIBAgIJAKFd7g2QO9ngMA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNV\nBAMME3Brcy1uc3gtdC1zdXBlcnVzZXIwHhcNMTkwMTE4MTU1NTQxWhcNMjEwMTE3\nMTU1NTQxWjAeMRwwGgYDVQQDDBNwa3MtbnN4LXQtc3VwZXJ1c2VyMIIBIjANBgkq\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuT1kO4UVCDnHM6EhKE4GFCz+WiVUbUpO\nQzJvPPqHzHK8aKqDHVCepbUlQ9inRXr8tpzpjTr3hLyO5gsTkfSxI+SNf99JPck1\njdBKLd7UUgyGRG8UJLt60AELgRudjR6GTLLr+MkgqlzdRnmQgpF17rcovPBxgysS\nhmqqzlqTrWPui0F3CqQ8Pqo45pmsNDbdBGUDCvWryvcqZBnaXn6QKqSVdZE2QCff\n1mpJ1JWgHeT7v/smasgT30hZ0CMsLsG5vhohbeWx674CgKTqkgpQ5RNry3Q0EO9v\nf7JiaDeFAJYneaHj4q0FK60VhNrcyvD5im1XtdeXBtVKh2h4zaQFlwIDAQABoxcw\nFTATBgNVHSUEDDAKBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAQEAlrYJxgf9\nF0e8y/bBSM9SJBNzY30EJQOl7vEyu+pUTLDn0602P07VO+3S+p8Lc5hswy704Epl\nnzCnqeFspea4lplGTBsgAMSaCTN9/CNetm4qi2JkYqVAGvg6SPW+PqgYPRIGT43J\ncVVHhNBjdFZh/upAh12NzynlhcO+WYXKBu8qpXknc7iLBoRKjK5TH0LzioM5ttIw\nLMnJz95RrdIwkVkPreiwbP7xGZiNNnjVcTNaLGLwUi3oXqNSKfbaQ/yeB+pBIvRk\nuwQQ9ao4EBfqBYwD0zvtnwhKepujxKbLPyLVHqKlHnQRp0KwQT1dj04FkVmJ6D4t\nP+XDG+8s33T9xw==\n-----END CERTIFICATE-----\n"
+      private_key_pem: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5PWQ7hRUIOccz\noSEoTgYULP5aJVRtSk5DMm88+ofMcrxoqoMdUJ6ltSVD2KdFevy2nOmNOveEvI7m\nCxOR9LEj5I1/30k9yTWN0Eot3tRSDIZEbxQku3rQAQuBG52NHoZMsuv4ySCqXN1G\neZCCkXXutyi88HGDKxKGaqrOWpOtY+6LQXcKpDw+qjjmmaw0Nt0EZQMK9avK9ypk\nGdpefpAqpJV1kTZAJ9/WaknUlaAd5Pu/+yZqyBPfSFnQIywuwbm+GiFt5bHrvgKA\npOqSClDlE2vLdDQQ729/smJoN4UAlid5oePirQUrrRWE2tzK8PmKbVe115cG1UqH\naHjNpAWXAgMBAAECggEBAJKwdQFVP/SFnKPcA1/heZrcjodgbF0nrJY2CDTnyEY0\nzdKsxKugPiHHMz1pAf1ZiWorFCANBBmPIDI3r0Wz2dsskIkkjuFoxwoIWdW9UbGv\nzVvAAtmbxYOWcD/LWJZ6B6wRPCCFVWLTqz614aQkAJoLXS1R0vImV8MuERjcTXnO\nAHWzPaN3QZWYoDIN01Qp3q1cwcSgr40jF64/Gl3OdVUAMHcsjd3571Z6EaF9XDqe\nF2yqrS/Xvi/qwCTdCpx0x3JJ3EdZ7vW2IKPi+Phfh4eJzmkjnGmfnxK2KB/FvVT5\nzVrAb+hE1DuS3lJXZoj3gnlhEZLznbS6S5cPsjgZ7ZECgYEA8EsCOn+fFQnC5ok9\nmpA0E7qDgqe1KFxlxCJK0ehFH9KV6d4mTjwm++fhkX2QGZ1wd9X8BFpPWkLr98Vu\npoXiTH2o2G4Yqd3rWDpYZXrbbYQpIivm16EP/vcy05gbD8sJpgXsSbdIQsdCLxry\nsvqfFEApYGnmVwnBbom4sxl16iUCgYEAxVkjoE82BY0cLBpX2Xn1S8YH+zTXqXRW\nC2YmPbigAUBNtCDWzNpw6qNmu54RbLGX+MHiClhY2XVUC9vRhPi3oTpRyCPPF4FQ\nIgWkbVt9TLofUyYO8ltkUIwukVvMKrsfSHTLrY/Ff34F4z2r3G1KLHmm2maGKBo9\ncN1XVOIGPgsCgYA1/zUN/jW6XYotkfOE8xiwwj3hM1yTKEg6DdawWriF0SWc+y2y\ncPP1sYLP1d520xk95JkQRVcFmno6IGSgCP/0Xlx93ieurE7BccMBct0yO/ueUS07\nkVbt3ZDPWaPjJaYSZ8xUOFqFnw8xVKXrMERlIZHqt4FqV6fe9hXKMVN8/QKBgQC3\n5Z6rLeT7O0k7V7jxMRKBb6HUVqN4hq3/pUqRTU/cmp1N8yP2dL+wBmAfCObX0I37\nAkCuvzDcQtb0zfvp2xLSrNO0mpnKH3ganANi3FRggTfbdaWL9dn+rQJf9ZjFYOV/\n0UZTD5xMd5To8nkJyNXLp/jxn4P4Lqt+VuOgd5a1jQKBgAtiwrhyKIg8ltvHm8yX\nB1V0lWfIhOPFkGx5Kbwb4GP7eIw9paaHPLQZ0c0QYpzFwEagCGa91c06Et/F5Ysi\nue9NVHKf7MhwzeuEaHTV4L+7PUD4KZbuunWJe1cXgRwYSfuITedzPesCH0yVzudA\n9g/fU+Ukx6YvwZTn/4WMWH+L\n-----END PRIVATE KEY-----\n"
+  .properties.network_selector.nsx.floating-ip-pool-ids:
+    value: "0ea30751-9f34-4863-9b13-7f05d7bbeb8a"
+  .properties.network_selector.nsx.ip-block-id:
+    value: "7645eac4-a040-4dcd-bd85-b7187d78f694"
+  .properties.network_selector.nsx.nodes-ip-block-id:
+    value: "308b4a82-d6ad-4ff8-913d-5a7526a3e447"
+  .properties.network_selector.nsx.cloud-config-dns:
+    value: 192.168.110.10
+  .properties.network_selector.nsx.nsx-t-host:
+    value: 192.168.110.33
+  .properties.network_selector.nsx.nsx-t-insecure:
+    value: true
+  .properties.network_selector.nsx.nsx-t-ca-cert:
+    value: "-----BEGIN CERTIFICATE-----\nMIIDUjCCAjqgAwIBAgIJAKaZFPD/cp+9MA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMQswCQYDVQQHDAJDQTEMMAoGA1UE\nCgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4LjExMC4zMzAeFw0xOTAxMDgyMDA0MDha\nFw0yMDAxMDgyMDA0MDhaMFYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9y\nbmlhMQswCQYDVQQHDAJDQTEMMAoGA1UECgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4\nLjExMC4zMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMWW1l+IJgqF\nzbm3pzIad1Oc5q33mRiF8Yw+Ytze3wZFgHNMvP7rohMFgwGvB2Uf1CX2lPCIkUop\ne0cDrnHxOLhFrrfFt+Ul2if8URQQHerP5KVcwMgGrGBtWwZe0IXNxnt73zVzjp+z\nxbFY7sdH9S3YwEOR8iXr+dOcZMj0G1qHyBd8koiTLvEijDivagQD3zY7bU4LYiwf\nxDosph5g3zRFRkaGC6Aq4dP/dNXh02W6aM6BrNkW+aWPQ1ewxP5DomQddTSpqsxr\neEG01m3y7qckNbMT/pw6hZxOsNJIfvtTwXthe9S4oAJVB/MyvfJ1QiR48oROP9TW\n1umyGEnuipUCAwEAAaMjMCEwHwYDVR0RBBgwFoIOMTkyLjE2OC4xMTAuMzOHBMCo\nbiEwDQYJKoZIhvcNAQELBQADggEBABmbtP5ETf6PHuAaMuhJPpiQiDJM6GJhTXt3\nOK0PwxfVFGitnSPLr9MbQ5LQDTGrZS9Aysv5eY5MNCG/zR3xOatkBQp5sIzWjP/W\nhBI9RQNYwTI1EmTc3aZyd8hy6bLInjeIXu+mMY6f1GAbDCc2qSo6rwfxH+qGFGcY\ndosbiNIpzBVyRWXYgrKwjRVUkqC4oXWOdC7LWUDYo6G+yneqeKoXyuHULr9FdeVa\nSD2osuLtVAXKy3UdDFyRReVRtaDAQIu/qL5MinkdAjwRbM3Gw5sqsapC76JfNp7B\nrkaMIk1Agt9XLAZhEhQRwfGEpGaPvRoZgXO+sfn2uPQ/ZDM2aHw=\n-----END CERTIFICATE-----\n"
+  .properties.network_selector.nsx.t0-router-id:
+    value: "248c9826-bcde-4db1-ac16-f64de4cf4763"
+  .properties.network_selector.nsx.vcenter_cluster:
+    value: RegionA01-MGMT
+  .properties.plan1_selector:
+    value: Plan Active
+  .properties.plan1_selector.active.allow_privileged_containers:
+    value: false    
+  .properties.plan1_selector.active.description:
+    value: Default plan for K8s cluster
+  .properties.plan1_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan1_selector.active.master_persistent_disk_type:
+    value: "10240"
+  .properties.plan1_selector.active.master_vm_type:
+    value: small
+  .properties.plan1_selector.active.name:
+    value: small  
+  .properties.plan1_selector.active.worker_instances:
+    value: 2
+  .properties.plan1_selector.active.worker_vm_type:
+    value: small
+  .properties.plan1_selector.active.master_az_placement:
+    value: ["pks-az-1"]
+  .properties.plan1_selector.active.worker_az_placement:
+    value: ["pks-az-1"]
+  .properties.plan2_selector:
+    value: Plan Active
+  .properties.plan2_selector.active.allow_privileged_containers:
+    value: false    
+  .properties.plan2_selector.active.description:
+    value: For Large Workloads
+  .properties.plan2_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan2_selector.active.master_persistent_disk_type:
+    value: "10240"
+  .properties.plan2_selector.active.master_vm_type:
+    value: medium
+  .properties.plan2_selector.active.name:
+    value: medium  
+  .properties.plan2_selector.active.worker_instances:
+    value: 5
+  .properties.plan2_selector.active.worker_vm_type:
+    value: medium
+  .properties.plan2_selector.active.master_az_placement:
+    value: ["pks-az-1"]
+  .properties.plan2_selector.active.worker_az_placement:
+    value: ["pks-az-1"]
+  .properties.plan3_selector:
+    value: Plan Inactive
+  .properties.telemetry_selector:
+    value: disabled   
+network-properties:
+  network:
+    name: opsman-network
+  other_availability_zones:
+  - name: pks-az-1
+  service_network:
+    name: opsman-network
+  singleton_availability_zone:
+    name: pks-az-1
+errand-config:  
+  pks-nsx-t-precheck:
+    post-deploy-state: true

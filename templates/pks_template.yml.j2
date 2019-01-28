@@ -1,0 +1,202 @@
+product-name: pivotal-container-service
+product-properties:
+  .pivotal-container-service.pks_tls:
+    value:
+      cert_pem: "{{ lookup('file', '/tmp/rsa_edited.log') }}"
+      private_key_pem: "{{ lookup('file', '/tmp/rsa_key_edited.log') }}"
+  .properties.pks_api_hostname:
+    value: {{ pks_api_hostname }}
+  .properties.cloud_provider:
+    value: vSphere
+  .properties.cloud_provider.vsphere.vcenter_dc:
+    value: {{ vcenter_datacenter }}
+  .properties.cloud_provider.vsphere.vcenter_ds:
+    value: {{ ops_datastore }}
+  .properties.cloud_provider.vsphere.vcenter_ip:
+    value: {{ vcenter_host_ip }}
+  .properties.cloud_provider.vsphere.vcenter_master_creds:
+    value:
+      identity: {{ vcenter_user }}
+      password: {{ vcenter_pwd }}
+  .properties.cloud_provider.vsphere.vcenter_vms:
+    value: {{ bosh_vm_folder }}
+  .properties.network_selector:
+    value: nsx  
+  .properties.network_selector.nsx.nsx-t-superuser-certificate: 
+    value: 
+      cert_pem: "{{ lookup('file', '/tmp/pks-nsx-t-su-edit.crt') }}"
+      private_key_pem: "{{ lookup('file', '/tmp/pks-nsx-t-su-edit.key') }}"
+  .properties.network_selector.nsx.floating-ip-pool-ids:
+    value: "{{ lookup('file', '/tmp/floating_ip_pool_id') }}"
+  .properties.network_selector.nsx.ip-block-id:
+    value: "{{ lookup('file', '/tmp/pod_block_id') }}"
+  .properties.network_selector.nsx.nodes-ip-block-id:
+    value: "{{ lookup('file', '/tmp/node_block_id') }}"
+  .properties.network_selector.nsx.cloud-config-dns:
+    value: {{ dns_server }}
+  .properties.network_selector.nsx.nsx-t-host:
+    value: {{ nsx_manager_ip }}
+  .properties.network_selector.nsx.nsx-t-insecure:
+    value: true
+  .properties.network_selector.nsx.nsx-t-ca-cert:
+    value: "{{ lookup('file', '/tmp/ca_edited.log') }}"
+  .properties.network_selector.nsx.t0-router-id:
+    value: "{{ lookup('file', '/tmp/t0_router_id') }}"
+  .properties.network_selector.nsx.vcenter_cluster:
+    value: {{ mgmt_cluster_name }}
+{% if plan == '1' %}
+  .properties.plan1_selector:
+    value: Plan Active
+  .properties.plan1_selector.active.allow_privileged_containers:
+    value: false    
+  .properties.plan1_selector.active.description:
+    value: Default plan for K8s cluster
+  .properties.plan1_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan1_selector.active.master_persistent_disk_type:
+    value: "10240"
+  .properties.plan1_selector.active.master_vm_type:
+    value: small
+  .properties.plan1_selector.active.name:
+    value: small  
+  .properties.plan1_selector.active.worker_instances:
+    value: 2
+  .properties.plan1_selector.active.worker_vm_type:
+    value: small
+  .properties.plan1_selector.active.master_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan1_selector.active.worker_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan2_selector:
+    value: Plan Inactive
+  .properties.plan3_selector:
+    value: Plan Inactive
+{% elif plan == '2' %}
+  .properties.plan1_selector:
+    value: Plan Active
+  .properties.plan1_selector.active.allow_privileged_containers:
+    value: false    
+  .properties.plan1_selector.active.description:
+    value: Default plan for K8s cluster
+  .properties.plan1_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan1_selector.active.master_persistent_disk_type:
+    value: "10240"
+  .properties.plan1_selector.active.master_vm_type:
+    value: small
+  .properties.plan1_selector.active.name:
+    value: small  
+  .properties.plan1_selector.active.worker_instances:
+    value: 2
+  .properties.plan1_selector.active.worker_vm_type:
+    value: small
+  .properties.plan1_selector.active.master_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan1_selector.active.worker_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan2_selector:
+    value: Plan Active
+  .properties.plan2_selector.active.allow_privileged_containers:
+    value: false    
+  .properties.plan2_selector.active.description:
+    value: For Large Workloads
+  .properties.plan2_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan2_selector.active.master_persistent_disk_type:
+    value: "10240"
+  .properties.plan2_selector.active.master_vm_type:
+    value: medium
+  .properties.plan2_selector.active.name:
+    value: medium  
+  .properties.plan2_selector.active.worker_instances:
+    value: 5
+  .properties.plan2_selector.active.worker_vm_type:
+    value: medium
+  .properties.plan2_selector.active.master_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan2_selector.active.worker_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan3_selector:
+    value: Plan Inactive
+{% elif plan == '3' %}
+  .properties.plan1_selector:
+    value: Plan Active
+  .properties.plan1_selector.active.allow_privileged_containers:
+    value: false    
+  .properties.plan1_selector.active.description:
+    value: Default plan for K8s cluster
+  .properties.plan1_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan1_selector.active.master_persistent_disk_type:
+    value: "10240"
+  .properties.plan1_selector.active.master_vm_type:
+    value: small
+  .properties.plan1_selector.active.name:
+    value: small  
+  .properties.plan1_selector.active.worker_instances:
+    value: 2
+  .properties.plan1_selector.active.worker_vm_type:
+    value: small
+  .properties.plan1_selector.active.master_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan1_selector.active.worker_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan2_selector:
+    value: Plan Active
+  .properties.plan2_selector.active.allow_privileged_containers:
+    value: false    
+  .properties.plan2_selector.active.description:
+    value: For Medium Workloads
+  .properties.plan2_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan2_selector.active.master_persistent_disk_type:
+    value: "10240"
+  .properties.plan2_selector.active.master_vm_type:
+    value: medium
+  .properties.plan2_selector.active.name:
+    value: medium  
+  .properties.plan2_selector.active.worker_instances:
+    value: 5
+  .properties.plan2_selector.active.worker_vm_type:
+    value: medium
+  .properties.plan2_selector.active.master_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan2_selector.active.worker_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan3_selector:
+    value: Plan Active
+  .properties.plan3_selector.active.allow_privileged_containers:
+    value: false 
+  .properties.plan3_selector.active.description:
+    value: For Large Workloads     
+  .properties.plan3_selector.active.errand_vm_type:
+    value: micro
+  .properties.plan3_selector.active.master_persistent_disk_type:
+    value: "10240" 
+  .properties.plan3_selector.active.master_vm_type:
+    value: large 
+  .properties.plan3_selector.active.name:
+    value: large
+  .properties.plan3_selector.active.worker_instances:
+    value: 5
+  .properties.plan3_selector.active.worker_vm_type:
+    value: large
+  .properties.plan3_selector.active.master_az_placement:
+    value: ["{{mgmt_az_name}}"]
+  .properties.plan3_selector.active.worker_az_placement:
+    value: ["{{mgmt_az_name}}"]
+{% endif %}
+  .properties.telemetry_selector:
+    value: disabled   
+network-properties:
+  network:
+    name: {{ main_network_name }}
+  other_availability_zones:
+  - name: {{ mgmt_az_name }}
+  service_network:
+    name: {{ main_network_name }}
+  singleton_availability_zone:
+    name: {{ mgmt_az_name }}
+errand-config:  
+  pks-nsx-t-precheck:
+    post-deploy-state: true

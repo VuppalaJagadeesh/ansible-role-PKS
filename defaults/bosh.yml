@@ -1,0 +1,48 @@
+iaas-configuration:
+  vcenter_host: 192.168.110.22
+  vcenter_username: administrator@vsphere.local
+  vcenter_password: VMware1!
+  datacenter: RegionA01
+  disk_type: thin
+  ephemeral_datastores_string: RegionA01-NFS01-COMP
+  persistent_datastores_string: RegionA01-NFS01-COMP
+  ssl_verification_enabled: false
+  nsx_networking_enabled: True
+  nsx_mode: nsx-t
+  nsx_address: 192.168.110.33  
+  nsx_username: admin
+  nsx_password: VMware@09876
+  nsx_ca_certificate: "-----BEGIN CERTIFICATE-----\nMIIDUjCCAjqgAwIBAgIJAKaZFPD/cp+9MA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMQswCQYDVQQHDAJDQTEMMAoGA1UE\nCgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4LjExMC4zMzAeFw0xOTAxMDgyMDA0MDha\nFw0yMDAxMDgyMDA0MDhaMFYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9y\nbmlhMQswCQYDVQQHDAJDQTEMMAoGA1UECgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4\nLjExMC4zMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMWW1l+IJgqF\nzbm3pzIad1Oc5q33mRiF8Yw+Ytze3wZFgHNMvP7rohMFgwGvB2Uf1CX2lPCIkUop\ne0cDrnHxOLhFrrfFt+Ul2if8URQQHerP5KVcwMgGrGBtWwZe0IXNxnt73zVzjp+z\nxbFY7sdH9S3YwEOR8iXr+dOcZMj0G1qHyBd8koiTLvEijDivagQD3zY7bU4LYiwf\nxDosph5g3zRFRkaGC6Aq4dP/dNXh02W6aM6BrNkW+aWPQ1ewxP5DomQddTSpqsxr\neEG01m3y7qckNbMT/pw6hZxOsNJIfvtTwXthe9S4oAJVB/MyvfJ1QiR48oROP9TW\n1umyGEnuipUCAwEAAaMjMCEwHwYDVR0RBBgwFoIOMTkyLjE2OC4xMTAuMzOHBMCo\nbiEwDQYJKoZIhvcNAQELBQADggEBABmbtP5ETf6PHuAaMuhJPpiQiDJM6GJhTXt3\nOK0PwxfVFGitnSPLr9MbQ5LQDTGrZS9Aysv5eY5MNCG/zR3xOatkBQp5sIzWjP/W\nhBI9RQNYwTI1EmTc3aZyd8hy6bLInjeIXu+mMY6f1GAbDCc2qSo6rwfxH+qGFGcY\ndosbiNIpzBVyRWXYgrKwjRVUkqC4oXWOdC7LWUDYo6G+yneqeKoXyuHULr9FdeVa\nSD2osuLtVAXKy3UdDFyRReVRtaDAQIu/qL5MinkdAjwRbM3Gw5sqsapC76JfNp7B\nrkaMIk1Agt9XLAZhEhQRwfGEpGaPvRoZgXO+sfn2uPQ/ZDM2aHw=\n-----END CERTIFICATE-----\n"
+  bosh_vm_folder: pks_vms
+  bosh_template_folder: pks_templates
+  bosh_disk_path: pks_disk
+director-configuration:
+  ntp_servers_string: 192.168.100.1
+  resurrector_enabled: true
+  post_deploy_enabled: true
+  bosh_recreate_on_next_deploy: true
+az-configuration:
+  - name: pks-az-1
+    cluster: RegionA01-MGMT
+    resource_pool: Pks-rp1
+  - name: pks-az-2
+    cluster: 
+    resource_pool: 
+networks-configuration:
+  icmp_checks_enabled: False
+  networks:
+  - name: opsman-network
+    service_network: false
+    subnets:
+    - iaas_identifier: ESXi-RegionA01-vDS-COMP
+      cidr: 192.168.110.0/24
+      reserved_ip_ranges: 192.168.110.0-192.168.110.100, 192.168.110.150-192.168.110.255
+      dns: 192.168.110.10
+      gateway: 192.168.110.1
+      availability_zone_names:
+      - pks-az-1      
+network-assignment:
+  singleton_availability_zone:
+    name: pks-az-1
+  network:
+    name: opsman-network
