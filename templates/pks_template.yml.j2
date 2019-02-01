@@ -58,15 +58,17 @@ product-properties:
   .properties.plan1_selector.active.master_vm_type:
     value: small
   .properties.plan1_selector.active.name:
-    value: small  
+    value: {{ plan_1_name }}
+  .properties.plan1_selector.active.master_instances:
+    value: {{ plan_1_master_nodes }}
   .properties.plan1_selector.active.worker_instances:
-    value: 2
+    value: {{ plan_1_worker_nodes }}
   .properties.plan1_selector.active.worker_vm_type:
     value: small
   .properties.plan1_selector.active.master_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_1_availablity_zone_for_master}}"]
   .properties.plan1_selector.active.worker_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_1_availablity_zone_for_worker}}"]
   .properties.plan2_selector:
     value: Plan Inactive
   .properties.plan3_selector:
@@ -85,15 +87,17 @@ product-properties:
   .properties.plan1_selector.active.master_vm_type:
     value: small
   .properties.plan1_selector.active.name:
-    value: small  
+    value: {{ plan_1_name }} 
+  .properties.plan1_selector.active.master_instances:
+    value: {{ plan_1_master_nodes }}
   .properties.plan1_selector.active.worker_instances:
-    value: 2
+    value: {{ plan_1_worker_nodes }}
   .properties.plan1_selector.active.worker_vm_type:
     value: small
   .properties.plan1_selector.active.master_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_1_availablity_zone_for_master}}"]
   .properties.plan1_selector.active.worker_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_1_availablity_zone_for_worker}}"]
   .properties.plan2_selector:
     value: Plan Active
   .properties.plan2_selector.active.allow_privileged_containers:
@@ -107,15 +111,17 @@ product-properties:
   .properties.plan2_selector.active.master_vm_type:
     value: medium
   .properties.plan2_selector.active.name:
-    value: medium  
+    value: {{ plan_2_name }} 
+  .properties.plan2_selector.active.master_instances:
+    value: {{ plan_2_master_nodes }}
   .properties.plan2_selector.active.worker_instances:
-    value: 5
+    value: {{ plan_2_worker_nodes }}
   .properties.plan2_selector.active.worker_vm_type:
     value: medium
   .properties.plan2_selector.active.master_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_2_availablity_zone_for_master}}"]
   .properties.plan2_selector.active.worker_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_2_availablity_zone_for_worker}}"]
   .properties.plan3_selector:
     value: Plan Inactive
 {% elif plan == '3' %}
@@ -132,15 +138,17 @@ product-properties:
   .properties.plan1_selector.active.master_vm_type:
     value: small
   .properties.plan1_selector.active.name:
-    value: small  
+    value: {{ plan_1_name }} 
+  .properties.plan1_selector.active.master_instances:
+    value: {{ plan_1_master_nodes }}
   .properties.plan1_selector.active.worker_instances:
-    value: 2
+    value: {{ plan_1_worker_nodes }}
   .properties.plan1_selector.active.worker_vm_type:
     value: small
   .properties.plan1_selector.active.master_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_1_availablity_zone_for_master}}"]
   .properties.plan1_selector.active.worker_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_1_availablity_zone_for_worker}}"]
   .properties.plan2_selector:
     value: Plan Active
   .properties.plan2_selector.active.allow_privileged_containers:
@@ -154,15 +162,17 @@ product-properties:
   .properties.plan2_selector.active.master_vm_type:
     value: medium
   .properties.plan2_selector.active.name:
-    value: medium  
+    value: {{ plan_2_name }} 
+  .properties.plan2_selector.active.master_instances:
+    value: {{ plan_2_master_nodes }}
   .properties.plan2_selector.active.worker_instances:
-    value: 5
+    value: {{ plan_2_worker_nodes }}
   .properties.plan2_selector.active.worker_vm_type:
     value: medium
   .properties.plan2_selector.active.master_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_2_availablity_zone_for_master}}"]
   .properties.plan2_selector.active.worker_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_2_availablity_zone_for_worker}}"]
   .properties.plan3_selector:
     value: Plan Active
   .properties.plan3_selector.active.allow_privileged_containers:
@@ -176,15 +186,17 @@ product-properties:
   .properties.plan3_selector.active.master_vm_type:
     value: large 
   .properties.plan3_selector.active.name:
-    value: large
+    value: {{ plan_3_name }}
+  .properties.plan3_selector.active.master_instances:
+    value: {{ plan_3_master_nodes }}
   .properties.plan3_selector.active.worker_instances:
-    value: 5
+    value: {{ plan_3_worker_nodes }}
   .properties.plan3_selector.active.worker_vm_type:
     value: large
   .properties.plan3_selector.active.master_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_3_availablity_zone_for_master}}"]
   .properties.plan3_selector.active.worker_az_placement:
-    value: ["{{mgmt_az_name}}"]
+    value: ["{{plan_3_availablity_zone_for_worker}}"]
 {% endif %}
   .properties.telemetry_selector:
     value: disabled   
@@ -192,7 +204,19 @@ network-properties:
   network:
     name: {{ main_network_name }}
   other_availability_zones:
+{% if compute_az == '1' %}
   - name: {{ mgmt_az_name }}
+  - name: {{ compute_az_1_name }} 
+{% elif compute_az == '2' %}
+  - name: {{ mgmt_az_name }}
+  - name: {{ compute_az_1_name }} 
+  - name: {{ compute_az_2_name }}
+{% elif compute_az == '3' %}
+  - name: {{ mgmt_az_name }}
+  - name: {{ compute_az_1_name }} 
+  - name: {{ compute_az_2_name }}
+  - name: {{ compute_az_3_name }}
+{% endif %}
   service_network:
     name: {{ main_network_name }}
   singleton_availability_zone:

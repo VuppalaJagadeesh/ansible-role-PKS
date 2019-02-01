@@ -48,7 +48,7 @@ az-configuration:
     resource_pool: {{compute_rp }}
 {% endif %}
 networks-configuration:
-  icmp_checks_enabled: {{ icmp_checks_enabled }}
+  icmp_checks_enabled: false
   networks:
   - name: {{ main_network_name }}
     service_network: false
@@ -59,7 +59,19 @@ networks-configuration:
       dns: {{ dns_server }}
       gateway: {{ ops_gw }}
       availability_zone_names:
-      - {{ mgmt_az_name }}      
+{% if compute_az == '1' %}
+      - {{ mgmt_az_name }}
+      - {{ compute_az_1_name }} 
+{% elif compute_az == '2' %}
+      - {{ mgmt_az_name }}
+      - {{ compute_az_1_name }} 
+      - {{ compute_az_2_name }}
+{% elif compute_az == '3' %}
+      - {{ mgmt_az_name }}
+      - {{ compute_az_1_name }} 
+      - {{ compute_az_2_name }}
+      - {{ compute_az_3_name }}
+{% endif %}
 network-assignment:
   singleton_availability_zone:
     name: {{ mgmt_az_name }}
