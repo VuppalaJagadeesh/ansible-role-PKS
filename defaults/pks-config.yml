@@ -2,10 +2,10 @@ product-name: pivotal-container-service
 product-properties:
   .pivotal-container-service.pks_tls:
     value:
-      cert_pem: "-----BEGIN CERTIFICATE-----\nMIIDfDCCAmSgAwIBAgIVALoho+RjZ5V/3PI22jZ4v7TzzA3pMA0GCSqGSIb3DQEB\nCwUAMB8xCzAJBgNVBAYTAlVTMRAwDgYDVQQKDAdQaXZvdGFsMB4XDTE5MDEyMTA5\nMDAzNVoXDTIxMDEyMTA5MDAzNVowPDELMAkGA1UEBhMCVVMxEDAOBgNVBAoMB1Bp\ndm90YWwxGzAZBgNVBAMMEmFwaS5wa3MuY29ycC5sb2NhbDCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAMHTg9B/xvEUz2Rpi6DsXukZtuHNsvWVi6h/QB6M\njrhA6q9TeQmvDCI2QyENIyoj0bc4SycqLTDPxFd2XiggitECyux7uDH1k1HPw0VR\nlKXobMVya1lxNzbyBRnpjz7cm7zF1FNI+P0VJgQf48PGHgNoME717PSxV4ve7VLz\nBuNUAZBDarUx9dB7+eU72Mh6TADRGPCocoUdzOBi3qkkUzD8LDve/qTMZKsuBv/C\nU45/qksKb4zyea5yFBB6JdPqSl4dMRlPJ+XilYDbLy+k0iHQfs+3SYisDM3e78GF\n/g95Az58u5Q9Kod0O/vXbAK5tL+4+orakCLJqDrY6WKUiZ8CAwEAAaOBkTCBjjAd\nBgNVHQ4EFgQUIqP4OG02NgaWnoGTkM93/mN7wF4wHwYDVR0jBBgwFoAU/oly6Zx7\ne33Rh3ErZrSnGZIUrIAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA4G\nA1UdDwEB/wQEAwIHgDAdBgNVHREEFjAUghJhcGkucGtzLmNvcnAubG9jYWwwDQYJ\nKoZIhvcNAQELBQADggEBAI9275mgT/Ktt968+BBsc/iUgcdgd3w8YF1tbdnFBrsy\n/UFPHVSZzGGdZ4hDO+HR6DFdDgmNs6lriPjX9hSBcCJxpxq0dtf7YIdSdspCB380\nzmeMdNPsN9gJ6zniAvLiSmFZrnadCu+z9PVGBOjAK8vwLMW80no9tQT4LKyN7XRz\ncCuBUNsY9LTAp/8MeJVf9IAngkOY5uFgg/SLYvDRwDAJJRWwdBoPIGe8K4xj4z0X\nkEDABoL1RutYb/r1yO6YJXKh94x3AaLi6iE5nQUBi9wlsn/quo6h87Mc8Kqg73Re\nfP3QgPqMUfHWX1F52WmX886gFQgr9Aw0VJzWjYzbudU=\n-----END CERTIFICATE-----\n"
-      private_key_pem: "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAwdOD0H/G8RTPZGmLoOxe6Rm24c2y9ZWLqH9AHoyOuEDqr1N5\nCa8MIjZDIQ0jKiPRtzhLJyotMM/EV3ZeKCCK0QLK7Hu4MfWTUc/DRVGUpehsxXJr\nWXE3NvIFGemPPtybvMXUU0j4/RUmBB/jw8YeA2gwTvXs9LFXi97tUvMG41QBkENq\ntTH10Hv55TvYyHpMANEY8KhyhR3M4GLeqSRTMPwsO97+pMxkqy4G/8JTjn+qSwpv\njPJ5rnIUEHol0+pKXh0xGU8n5eKVgNsvL6TSIdB+z7dJiKwMzd7vwYX+D3kDPny7\nlD0qh3Q7+9dsArm0v7j6itqQIsmoOtjpYpSJnwIDAQABAoIBAHV4IpAvkLu1mAfM\nK9KIzvDJI9xwFUDftHeXP54EI88pkNJXbajfzSPC7SZP1vsIIGbBmFKRLjhCA0Xa\nuC/roRYRcjimtriYlANmPnt5ePSgC6QSt1rK0eLcBRlyQt2fSEe9QfSD6ltAAP1I\n8npJTRFViMmiJE0cWemsXvsBzS/iQBwS067DjnvxjQT/7e6qXrvqkiCmdKKASQCJ\nvFVHeC1tUychsYBI2rP9UwEGTbIe96bV6KWjLmtYDKfiaK6E4vymnirghnhjD51T\nhf0Z3z9hvWpHSGdO3pmXpG29IdEyIPtzwws5AKWrVbH5N2uPQnG1Sbv99T3JAyzr\nSabFOzECgYEA7+tMA5pEXlvERkjlTlfxvHBMkBRywkkhP+k43PJNqHdraxWlRL98\nLR35CLns7EdTAp6kXluFCBsoZAxR/7lZMDuv8rzB1FXfqWRZ7QwnhH7AUfF3hR/g\nE2+KbWOQp2cR0PazHUi9rXUThWq5Y/Oe4qq1o64wQKhHKYG9Jfn0ifkCgYEAztFS\nvy67nqo7hUqXyWmdnxOS89Fy5BSWSV//i8js3jDqdmt5fDbvHnRmIdD1mxhnOYS5\nclUxhynkQhr3XGLpULqdfNhmaf4gJSs86RzH5GjjYB1Merd490ie8G46pBiBlQzx\nnvjFxnDE3S20to2vhqwrX+CKdnyuH5QNMyMgVlcCgYAKnrrFqg1+s8czaUSlPCVa\nNwpcklsmGICdSKCYvy0K2QZrPhELwwInKR198mT3bIzTH9ycxKZV3oXiL91tWXIG\nPY4jS5G06Xw2DlggsxoItmei+PJWdTvBAH37K54amuhh/JmfITosNHOBw2CjeQQ+\neloB/dLq+cf0oWaTCMZ3WQKBgQC5B8tZIi1XWYPgz4iW+Pe8311E56k7ZzPBt7JA\nVGWer/LEOYk52Uf7XjYVoQZrWNzZN+ZV5ORnwdHmVovhythkkmDd1hliUKpftpxL\nDqXDsxdh4TSQQd9mlUElZ+js8MPWHvt4t6bxz+hA3WhlPsO/3/76S0B1mzyJIgLh\nMlb3BwKBgCXgGmIRrQhW7ecXlPzb6uuAApEDh/lM5387GlxKTytLomvT2ugv53wC\nQzSO8ylehW1SX8G2KeCSK1I4DXz8eLKxzEG1vJSaUKu2zUKjz5h6jtpuDH7nc6Ru\niA8Wxhc2MH7ZGttQxogeyDvmHluQrMdpmqOjEpqn0XGw87Cfmled\n-----END RSA PRIVATE KEY-----\n"
+      cert_pem: "-----BEGIN CERTIFICATE-----\nMIIDbzCCAlegAwIBAgIULQilsSsYG8cEgFDlvYaQYV2kUlowDQYJKoZIhvcNAQEL\nBQAwHzELMAkGA1UEBhMCVVMxEDAOBgNVBAoMB1Bpdm90YWwwHhcNMTkwMjAzMDkx\nMzUxWhcNMjEwMjAzMDkxMzUxWjA2MQswCQYDVQQGEwJVUzEQMA4GA1UECgwHUGl2\nb3RhbDEVMBMGA1UEAwwMYXBpLmNvcnAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOC\nAQ8AMIIBCgKCAQEAzz5iAkFBdbZtAzYvnZ0AVVJmQ4J4lj0nrzjcqPN6es1ssD7m\n44IY2iQlzHRFYvKBy7ZBo0l4ToCXpmCyfMcCtYF27Om4v/Zt1oflchJI7W8/1d6I\n+3w4cBK2jrPX5rLom1xAP2RrrUlVs1VuiuFbDElZ4i1ixhaKgs2br2XQou3LBt/f\npzighS7ocihOOPDX1vRB+C3yOgvFBxKSYMvLmOJ9BZa4LvIxQoCitV5VxRTD4Axs\nxwCEy/guEs3Hf30Hx7NOP67XDJ4eHt4vNkR0MYn9tRJo8KObm4xzO1COKuewWUi7\nAc7n8yQljYHv4SbU8TNaEjqwBeqKROmUY8ZPNwIDAQABo4GLMIGIMB0GA1UdDgQW\nBBRdZYjlHZKyMLVK/DFFdqoUST/udDAfBgNVHSMEGDAWgBQw8k2W4nrFx2td2RQQ\n+tJBQONtyDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDgYDVR0PAQH/\nBAQDAgeAMBcGA1UdEQQQMA6CDGFwaS5jb3JwLmNvbTANBgkqhkiG9w0BAQsFAAOC\nAQEAwMnP2xgilgHM+39mqrRrF0iTDAeSwj9Nf33Rkmne7vR+9GO4+a7EjQuf8fCi\na6+lnf5v17QGpy+cXT1ZqYK68h9KezAix0ITNB5QgzvUoltJfnzLKn6IcGACbTIz\n+Uk4W6GyuQH5Lckw08fnSgW1gY+ryuUxh75RkwdnJojfVK6rHhtAcm35Wph4g8FY\n1GkpwK6nmIsOBhMguq5ejD1ud6Z++2yvXuqsZzaRxbuaeDWionIHTxJfMnRGDXe4\nQdd7X+k/n1VUhS0D2lxVMymiAT39aqdHLuY+seC5Xi94MndPSnSCjuwkGyio3JT9\n4IZkLonjCVzd5fy0Yy+X5OUzUw==\n-----END CERTIFICATE-----\n"
+      private_key_pem: "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAzz5iAkFBdbZtAzYvnZ0AVVJmQ4J4lj0nrzjcqPN6es1ssD7m\n44IY2iQlzHRFYvKBy7ZBo0l4ToCXpmCyfMcCtYF27Om4v/Zt1oflchJI7W8/1d6I\n+3w4cBK2jrPX5rLom1xAP2RrrUlVs1VuiuFbDElZ4i1ixhaKgs2br2XQou3LBt/f\npzighS7ocihOOPDX1vRB+C3yOgvFBxKSYMvLmOJ9BZa4LvIxQoCitV5VxRTD4Axs\nxwCEy/guEs3Hf30Hx7NOP67XDJ4eHt4vNkR0MYn9tRJo8KObm4xzO1COKuewWUi7\nAc7n8yQljYHv4SbU8TNaEjqwBeqKROmUY8ZPNwIDAQABAoIBAQCM9cF0By6fAhXj\nuVdpvQAdCI7GHFgo2C/F3sc3o2QLYu4qcp5Y4IRG249aITuQsaHXDYBXsAFEY/LC\nF8NPW41cJ1LckZw39UWARa6qiAVSefjRXyuM4lEA6bmCFpEjOU09XuHUPFmA5ACG\nmfU2QVHMaZfZX0VvtqU/ktnx0y61og3pgzjTymv4L/pc/sZr0sVah593AgDn9lG8\nCYeWeiijwgNEipoHaoTWr5LO8QPAR/c13/43a3ZkBOtj/SPGztfTKneNEK1xIYQo\njgBwzTpZZtG1dMw3dfr3AWPkSHmiqqE1zE6xdisG36NapBk8li+iVoRw9OHz8A8r\nQjPJa3gBAoGBAPfLUpih8mXXz0bcK6nkuSlTRuwXHwWZUyN1/gWwRFFvnp5hpBuy\nLcyRgnmcVnckQG8oS6QbeRzj+tv2YzohZ9NjvYGeNsvXUGyY46YhtDc5u0tVuvnO\nJxRgm5F4feo9oiDuKgzHcmYqKRFVdjLLVjhFmZuj9fk+VScOx0f624ehAoGBANYb\nSuu8S+158IYg9gGgVwI9Zm6yXunQXp34NLCGnkU+47boO5QdLXFdcPdNkZgkh4+4\n5/8d9z8E3oqpsOTSfWnblc6EYpLTFMjOGSyl2g1U+aL05dnWkwbhR3g9sqzeLXab\nMQhKgXdTq6EGMyLkqHqH6aXDBwpY2NDE1APvcgfXAoGACKSw9t3/RIooksIvS7fM\ntaJQAQA1ds6IVd5RxAUH/Qc1szSYstaePlp9AJzxbyp2jOoM6WaD7PwOzglkIKz1\noCwEejb4llemWINkvXDDhoGfBNuyr+/+8PkFtCdNzRPlSdzE3rk+Rk4GLLKcct0g\n3smeuA0aEV2ZPsmHLf2UFsECgYBObF7L7AOPr3uHValmPRnBq0XKxDD5yaXujMyX\n4Cc2y+tSwsuX2/waKxTGsLXkmXTCEwN/MbWvcpQlDDTMC8F+Nb0wkNMeXoydZMhZ\nz0IIYhiyNKvAV9UwzvGDvG2m3hae/AdAtzGmyJH0ADZY0JJZl1Dgs4fvpU19YqsZ\n6enFrwKBgG/PbPCe1Cp4kZJdP9nNWwM9KV7d9dy+vyZOEG0esiPfRFaZp74MXZsh\nRwCMlrTLQO06/dFXD5IomvFdfmTUkoCHwbBNoW1S5EVOu81VqsgnBekCS3bSVCvk\nKlCF6YRuJuiDQU9ieVB1Vf0MEKbnLc6t9O+2ig7ezJWUjUjN0dA4\n-----END RSA PRIVATE KEY-----\n"
   .properties.pks_api_hostname:
-    value: api.pks.corp.local
+    value: api.corp.com
   .properties.cloud_provider:
     value: vSphere
   .properties.cloud_provider.vsphere.vcenter_dc:
@@ -24,14 +24,14 @@ product-properties:
     value: nsx  
   .properties.network_selector.nsx.nsx-t-superuser-certificate: 
     value: 
-      cert_pem: "-----BEGIN CERTIFICATE-----\nMIIC1jCCAb6gAwIBAgIJAKFd7g2QO9ngMA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNV\nBAMME3Brcy1uc3gtdC1zdXBlcnVzZXIwHhcNMTkwMTE4MTU1NTQxWhcNMjEwMTE3\nMTU1NTQxWjAeMRwwGgYDVQQDDBNwa3MtbnN4LXQtc3VwZXJ1c2VyMIIBIjANBgkq\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuT1kO4UVCDnHM6EhKE4GFCz+WiVUbUpO\nQzJvPPqHzHK8aKqDHVCepbUlQ9inRXr8tpzpjTr3hLyO5gsTkfSxI+SNf99JPck1\njdBKLd7UUgyGRG8UJLt60AELgRudjR6GTLLr+MkgqlzdRnmQgpF17rcovPBxgysS\nhmqqzlqTrWPui0F3CqQ8Pqo45pmsNDbdBGUDCvWryvcqZBnaXn6QKqSVdZE2QCff\n1mpJ1JWgHeT7v/smasgT30hZ0CMsLsG5vhohbeWx674CgKTqkgpQ5RNry3Q0EO9v\nf7JiaDeFAJYneaHj4q0FK60VhNrcyvD5im1XtdeXBtVKh2h4zaQFlwIDAQABoxcw\nFTATBgNVHSUEDDAKBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAQEAlrYJxgf9\nF0e8y/bBSM9SJBNzY30EJQOl7vEyu+pUTLDn0602P07VO+3S+p8Lc5hswy704Epl\nnzCnqeFspea4lplGTBsgAMSaCTN9/CNetm4qi2JkYqVAGvg6SPW+PqgYPRIGT43J\ncVVHhNBjdFZh/upAh12NzynlhcO+WYXKBu8qpXknc7iLBoRKjK5TH0LzioM5ttIw\nLMnJz95RrdIwkVkPreiwbP7xGZiNNnjVcTNaLGLwUi3oXqNSKfbaQ/yeB+pBIvRk\nuwQQ9ao4EBfqBYwD0zvtnwhKepujxKbLPyLVHqKlHnQRp0KwQT1dj04FkVmJ6D4t\nP+XDG+8s33T9xw==\n-----END CERTIFICATE-----\n"
-      private_key_pem: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5PWQ7hRUIOccz\noSEoTgYULP5aJVRtSk5DMm88+ofMcrxoqoMdUJ6ltSVD2KdFevy2nOmNOveEvI7m\nCxOR9LEj5I1/30k9yTWN0Eot3tRSDIZEbxQku3rQAQuBG52NHoZMsuv4ySCqXN1G\neZCCkXXutyi88HGDKxKGaqrOWpOtY+6LQXcKpDw+qjjmmaw0Nt0EZQMK9avK9ypk\nGdpefpAqpJV1kTZAJ9/WaknUlaAd5Pu/+yZqyBPfSFnQIywuwbm+GiFt5bHrvgKA\npOqSClDlE2vLdDQQ729/smJoN4UAlid5oePirQUrrRWE2tzK8PmKbVe115cG1UqH\naHjNpAWXAgMBAAECggEBAJKwdQFVP/SFnKPcA1/heZrcjodgbF0nrJY2CDTnyEY0\nzdKsxKugPiHHMz1pAf1ZiWorFCANBBmPIDI3r0Wz2dsskIkkjuFoxwoIWdW9UbGv\nzVvAAtmbxYOWcD/LWJZ6B6wRPCCFVWLTqz614aQkAJoLXS1R0vImV8MuERjcTXnO\nAHWzPaN3QZWYoDIN01Qp3q1cwcSgr40jF64/Gl3OdVUAMHcsjd3571Z6EaF9XDqe\nF2yqrS/Xvi/qwCTdCpx0x3JJ3EdZ7vW2IKPi+Phfh4eJzmkjnGmfnxK2KB/FvVT5\nzVrAb+hE1DuS3lJXZoj3gnlhEZLznbS6S5cPsjgZ7ZECgYEA8EsCOn+fFQnC5ok9\nmpA0E7qDgqe1KFxlxCJK0ehFH9KV6d4mTjwm++fhkX2QGZ1wd9X8BFpPWkLr98Vu\npoXiTH2o2G4Yqd3rWDpYZXrbbYQpIivm16EP/vcy05gbD8sJpgXsSbdIQsdCLxry\nsvqfFEApYGnmVwnBbom4sxl16iUCgYEAxVkjoE82BY0cLBpX2Xn1S8YH+zTXqXRW\nC2YmPbigAUBNtCDWzNpw6qNmu54RbLGX+MHiClhY2XVUC9vRhPi3oTpRyCPPF4FQ\nIgWkbVt9TLofUyYO8ltkUIwukVvMKrsfSHTLrY/Ff34F4z2r3G1KLHmm2maGKBo9\ncN1XVOIGPgsCgYA1/zUN/jW6XYotkfOE8xiwwj3hM1yTKEg6DdawWriF0SWc+y2y\ncPP1sYLP1d520xk95JkQRVcFmno6IGSgCP/0Xlx93ieurE7BccMBct0yO/ueUS07\nkVbt3ZDPWaPjJaYSZ8xUOFqFnw8xVKXrMERlIZHqt4FqV6fe9hXKMVN8/QKBgQC3\n5Z6rLeT7O0k7V7jxMRKBb6HUVqN4hq3/pUqRTU/cmp1N8yP2dL+wBmAfCObX0I37\nAkCuvzDcQtb0zfvp2xLSrNO0mpnKH3ganANi3FRggTfbdaWL9dn+rQJf9ZjFYOV/\n0UZTD5xMd5To8nkJyNXLp/jxn4P4Lqt+VuOgd5a1jQKBgAtiwrhyKIg8ltvHm8yX\nB1V0lWfIhOPFkGx5Kbwb4GP7eIw9paaHPLQZ0c0QYpzFwEagCGa91c06Et/F5Ysi\nue9NVHKf7MhwzeuEaHTV4L+7PUD4KZbuunWJe1cXgRwYSfuITedzPesCH0yVzudA\n9g/fU+Ukx6YvwZTn/4WMWH+L\n-----END PRIVATE KEY-----\n"
+      cert_pem: "-----BEGIN CERTIFICATE-----\nMIIC1jCCAb6gAwIBAgIJAM3EWA7lDNyuMA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNV\nBAMME3Brcy1uc3gtdC1zdXBlcnVzZXIwHhcNMTkwMjAxMTA0MjIyWhcNMjEwMTMx\nMTA0MjIyWjAeMRwwGgYDVQQDDBNwa3MtbnN4LXQtc3VwZXJ1c2VyMIIBIjANBgkq\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr+Yyym5Z3NiVFxUr4yt2wt6nO0ol5XPW\nVSCDSKYY5HQT3oGO9T0JvZvqbHZiSxfP+dsp+YVhIitA9fO801Co1ZYx+04H1V4M\nbk8rN/O3Onnrc0g9qgSPf4HrHbk00B0TkjvdlfIjqq+8tGZmNHmv8lWtW+3ZUZLQ\nHlz6hyBz3GT9IpldggWdk1zy48Ietr98Xehl3yimWwX+awzLaAezotWORUtBtGhx\nn2jYRpwERyfozliarybdsIdL75hZoX4OEz81W0EK+6/XhRCMTYRV+Cidu1GL3bMu\nCt/wmA0XYEMJsWLsi94SOA3ZXuhJvVxwwtEqlZOjFU0rZ9sre66UjwIDAQABoxcw\nFTATBgNVHSUEDDAKBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAQEAl2SlHiXE\nG0eJa2XRXvlSqOSnLO1TwR99HyfUcDncH8fMJuK5Rz2jYe21EggVVjIrNwNamIe4\nOT3oYIqaXhln7ZY6rzUrK1GVxqIf9pCNKLPtXQP1HqU9EwUNm8LnJn6lfa1d/De6\n4bI8H+hNRpgVto6npS8Tan8UVDZA9kmVDGH5LzUBscp4cVMsaIEo4Dnn3MpHjjEu\nktkYZGl5PRO/ZT2vPB1pEJlPjMloSmO/1TMZOwIqJWZ9F+eQn1ogScbPbVg0fFLs\n5qCr4xUDb5TG+wQsCvQNzlIoIwoIhKlsUfVFrws3oyx+FXOBEi4PkA+5HhCDg8yT\nspbS3uvGtrpqYA==\n-----END CERTIFICATE-----\n"
+      private_key_pem: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCv5jLKblnc2JUX\nFSvjK3bC3qc7SiXlc9ZVIINIphjkdBPegY71PQm9m+psdmJLF8/52yn5hWEiK0D1\n87zTUKjVljH7TgfVXgxuTys387c6eetzSD2qBI9/gesduTTQHROSO92V8iOqr7y0\nZmY0ea/yVa1b7dlRktAeXPqHIHPcZP0imV2CBZ2TXPLjwh62v3xd6GXfKKZbBf5r\nDMtoB7Oi1Y5FS0G0aHGfaNhGnARHJ+jOWJqvJt2wh0vvmFmhfg4TPzVbQQr7r9eF\nEIxNhFX4KJ27UYvdsy4K3/CYDRdgQwmxYuyL3hI4Ddle6Em9XHDC0SqVk6MVTStn\n2yt7rpSPAgMBAAECggEABWkvZsq+OOzwqSUdlH9hx9zRiCFfyQ8nKLc3UqTJXz2y\n3sVdgG3APvTs4SlDHMw+uZDkWaigtExgUzCMPnPcvbVBFFnyI74g48PLsIzutf3K\nIGG4g+JgB6wXb3KjDUPXtkfhKRupvTZqt6Huwu57WxkHnCxU4w2BGW4CxuVYqw7j\nK65cHQS3p+xxfdHj70iPUHnIaWaeh3iw35QrlQynMmZF0bJ8yagIz3G1IAEywg39\nVc7g0eqfdivRpM1IChdLbVRzjgoRE9ec1tFYb1zvLxpSql0Sckm1MXmvji2Yii52\nKGm+V4cZz53fRc1QYhFlziWuj7gC9Tbb/2zuXg6qAQKBgQDYfxLY72KAqZkoPVj1\n6vdPphP5UFSdYNoDI9agz/eW+UxRJBF3+caYD8Um9x/RbyzkevA75lDH/uog+6hp\n6+u3NCE86078kIzApfZY5QgqRn4qI5g8XdQRQN3OLAm2vkrxDGP+p9LbbKAMSKUl\nI0921fk8JaZSQ2Ao0sLMPptl1wKBgQDP/sJ7AD72vIu9KANZaKvohemlCuNINCz0\nIf/seIp+Tm3ITuatxjXapKctB5IybjwcOXnQdh0FVsjfsw7QTAFieYuSiKDmDJK/\ntKqMtwqT0Pdu7x9NjIzkgwohbF/8Fuvc2dVvwthAGbD9Yd7NUK6EJEYQSoVbVL4g\nQrEIgogACQKBgQDSUNBMcnFssFWbI82ySOqsM5if0IwCvz3LYxtz6dSKk/CxuqpF\ntR5aRqeuLNB6MtiXtV5/skSzpU5pcFCxZYD93uSTO7zl2r8Bv7hLr2N5PjX+Vcnk\nivojMLLJQTrGjqJa/UB++SX8B9CLXl8gbucZeNDAv4qNy+o0flrC8+cezQKBgCux\nQZtjDtb3/obKzAFRKqOa1dz0r4/wXe0e40sCe11TDl7ArFaex5tZcUDVUVHEtF3d\neQhgd3Iyq9nKHHeHL9dG3xn2F46b34vj4NvUa6VnhULJepLozoQGPu+Me5FSI1Pu\ncpaaoKC+hN6FW69XnoFluU4cyWzJHXNbbyLxgK45AoGBAMKQNT4QNFaVbw2bbOli\nYThRUKT22A9FVtl2J2GHTFPEPB7v1nXXD6zlZ0moEANBfsPO2omx+juHSq7yeJg1\ngSzvqHbaT3H925faYSYepNV3UyBgnQD9A9XXn74465y7qTPHsM/lxaxZaKS9KOcV\nqIw5CvodXPKso4Q5kDdTwoXf\n-----END PRIVATE KEY-----\n"
   .properties.network_selector.nsx.floating-ip-pool-ids:
-    value: "0ea30751-9f34-4863-9b13-7f05d7bbeb8a"
+    value: "c4075c3e-5391-4eba-a407-80f3f2a935b5"
   .properties.network_selector.nsx.ip-block-id:
-    value: "7645eac4-a040-4dcd-bd85-b7187d78f694"
+    value: "2d675b52-f8a4-44a5-acdd-f9ce2e6fb91b"
   .properties.network_selector.nsx.nodes-ip-block-id:
-    value: "308b4a82-d6ad-4ff8-913d-5a7526a3e447"
+    value: "96fbeec5-b784-460b-8b25-c20384218f6b"
   .properties.network_selector.nsx.cloud-config-dns:
     value: 192.168.110.10
   .properties.network_selector.nsx.nsx-t-host:
@@ -39,15 +39,15 @@ product-properties:
   .properties.network_selector.nsx.nsx-t-insecure:
     value: true
   .properties.network_selector.nsx.nsx-t-ca-cert:
-    value: "-----BEGIN CERTIFICATE-----\nMIIDUjCCAjqgAwIBAgIJAKaZFPD/cp+9MA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMQswCQYDVQQHDAJDQTEMMAoGA1UE\nCgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4LjExMC4zMzAeFw0xOTAxMDgyMDA0MDha\nFw0yMDAxMDgyMDA0MDhaMFYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9y\nbmlhMQswCQYDVQQHDAJDQTEMMAoGA1UECgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4\nLjExMC4zMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMWW1l+IJgqF\nzbm3pzIad1Oc5q33mRiF8Yw+Ytze3wZFgHNMvP7rohMFgwGvB2Uf1CX2lPCIkUop\ne0cDrnHxOLhFrrfFt+Ul2if8URQQHerP5KVcwMgGrGBtWwZe0IXNxnt73zVzjp+z\nxbFY7sdH9S3YwEOR8iXr+dOcZMj0G1qHyBd8koiTLvEijDivagQD3zY7bU4LYiwf\nxDosph5g3zRFRkaGC6Aq4dP/dNXh02W6aM6BrNkW+aWPQ1ewxP5DomQddTSpqsxr\neEG01m3y7qckNbMT/pw6hZxOsNJIfvtTwXthe9S4oAJVB/MyvfJ1QiR48oROP9TW\n1umyGEnuipUCAwEAAaMjMCEwHwYDVR0RBBgwFoIOMTkyLjE2OC4xMTAuMzOHBMCo\nbiEwDQYJKoZIhvcNAQELBQADggEBABmbtP5ETf6PHuAaMuhJPpiQiDJM6GJhTXt3\nOK0PwxfVFGitnSPLr9MbQ5LQDTGrZS9Aysv5eY5MNCG/zR3xOatkBQp5sIzWjP/W\nhBI9RQNYwTI1EmTc3aZyd8hy6bLInjeIXu+mMY6f1GAbDCc2qSo6rwfxH+qGFGcY\ndosbiNIpzBVyRWXYgrKwjRVUkqC4oXWOdC7LWUDYo6G+yneqeKoXyuHULr9FdeVa\nSD2osuLtVAXKy3UdDFyRReVRtaDAQIu/qL5MinkdAjwRbM3Gw5sqsapC76JfNp7B\nrkaMIk1Agt9XLAZhEhQRwfGEpGaPvRoZgXO+sfn2uPQ/ZDM2aHw=\n-----END CERTIFICATE-----\n"
+    value: "-----BEGIN CERTIFICATE-----\nMIIDVzCCAj+gAwIBAgIJAIQV+XRxxFlMMA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMQswCQYDVQQHDAJDQTEMMAoGA1UE\nCgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4LjExMC4zMzAeFw0xOTAxMzAxODIzMTFa\nFw0yMDAxMzAxODIzMTFaMFYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9y\nbmlhMQswCQYDVQQHDAJDQTEMMAoGA1UECgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4\nLjExMC4zMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKVBqr+gPzZS\nyJcqravOTIgOhUK2zET2qE/EjtVpxJdkiF83RuYltsyU4z0UaNCikNPi3OfHHWDj\n0pkvASFDYVA9smBREcLyHhrEN165vZQC2owPPAXeCHKxnDe8wBQAu2oHQ9Ex3LTN\naNpY9Wjxyb0scZadIeHvKJ8chqbpGB4eAMGfu+BxHQ3wGPHEq/XMyyBtdXrdVDZV\nM6YVUxhBIn3g9JT/HUhQYQM8dG49XrfzGyydtZj88i699khg1APJBPzJUqeQVe+T\n5DBemIRVBzi5iJHiezdyscEf0uuZXEZABu40WYAJCWGI3eHe1PbRjQarnsVbGKNk\niqurZrdJ+m8CAwEAAaMoMCYwJAYDVR0RBB0wG4ITbnN4Yy0wMWEuY29ycC5sb2Nh\nbIcEwKhuITANBgkqhkiG9w0BAQsFAAOCAQEAR5rgL9Q42z5c33P5vDetLzeRA65O\nUSOBysXxOFbkvryzrXeREHAehfChwgBgp1Z78eBTjwuOuUcDDSWr4PyOqD89POwJ\n+CXRsTLsEW+nF8bqyiaT/gT7GgyzrTVNEqKj+ntmCM9IWeV9IsAV8VUB3g8n2c80\nWU11P0rCASjAwGI8jKANYH4pbAnBJGAL18lDl4L4Ws7F0CV1TPvp/3jMt/Iu5cIv\nbzRNV7hy3IXuUz+j19RkYKYNRmtPlZ7+/9lv4ES0/MRpagYjuVpfgt0ZZKkWMuxV\nGoEUhaJLllEfU7ZfBLHJggFOdSz7lVhdLZRXED7a/DDgdjHk8CqYlW2TUw==\n-----END CERTIFICATE-----\n"
   .properties.network_selector.nsx.t0-router-id:
-    value: "248c9826-bcde-4db1-ac16-f64de4cf4763"
+    value: "b746adc3-1b15-4ca6-896c-180a79490183"
   .properties.network_selector.nsx.vcenter_cluster:
-    value: RegionA01-MGMT
+    value: RegionA01-K8s
   .properties.plan1_selector:
     value: Plan Active
   .properties.plan1_selector.active.allow_privileged_containers:
-    value: false    
+    value: False    
   .properties.plan1_selector.active.description:
     value: Default plan for K8s cluster
   .properties.plan1_selector.active.errand_vm_type:
@@ -57,19 +57,21 @@ product-properties:
   .properties.plan1_selector.active.master_vm_type:
     value: small
   .properties.plan1_selector.active.name:
-    value: small  
+    value: plan1 
+  .properties.plan1_selector.active.master_instances:
+    value: 1
   .properties.plan1_selector.active.worker_instances:
-    value: 2
+    value: 3
   .properties.plan1_selector.active.worker_vm_type:
     value: small
   .properties.plan1_selector.active.master_az_placement:
-    value: ["pks-az-1"]
+    value: ["compt_az1"]
   .properties.plan1_selector.active.worker_az_placement:
-    value: ["pks-az-1"]
+    value: ["compt_az2"]
   .properties.plan2_selector:
     value: Plan Active
   .properties.plan2_selector.active.allow_privileged_containers:
-    value: false    
+    value: False    
   .properties.plan2_selector.active.description:
     value: For Large Workloads
   .properties.plan2_selector.active.errand_vm_type:
@@ -79,28 +81,32 @@ product-properties:
   .properties.plan2_selector.active.master_vm_type:
     value: medium
   .properties.plan2_selector.active.name:
-    value: medium  
+    value: plan2 
+  .properties.plan2_selector.active.master_instances:
+    value: 1
   .properties.plan2_selector.active.worker_instances:
     value: 5
   .properties.plan2_selector.active.worker_vm_type:
     value: medium
   .properties.plan2_selector.active.master_az_placement:
-    value: ["pks-az-1"]
+    value: ["compt_az1"]
   .properties.plan2_selector.active.worker_az_placement:
-    value: ["pks-az-1"]
+    value: ["compt_az2"]
   .properties.plan3_selector:
     value: Plan Inactive
   .properties.telemetry_selector:
     value: disabled   
 network-properties:
   network:
-    name: opsman-network
+    name: Opsman-Network
   other_availability_zones:
-  - name: pks-az-1
+  - name: mgmt_az
+  - name: compt_az1 
+  - name: compt_az2
   service_network:
-    name: opsman-network
+    name: Opsman-Network
   singleton_availability_zone:
-    name: pks-az-1
+    name: mgmt_az
 errand-config:  
   pks-nsx-t-precheck:
     post-deploy-state: true

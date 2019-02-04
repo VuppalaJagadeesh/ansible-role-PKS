@@ -17,3 +17,7 @@
 
 - name: pks deploy
   include: test_pks_deploy.yml
+
+- name: pks deploy nat
+  include: test_pks_deploy_nat.yml
+

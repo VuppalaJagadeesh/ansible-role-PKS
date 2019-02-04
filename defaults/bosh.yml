@@ -11,8 +11,8 @@ iaas-configuration:
   nsx_mode: nsx-t
   nsx_address: 192.168.110.33  
   nsx_username: admin
-  nsx_password: VMware@09876
-  nsx_ca_certificate: "-----BEGIN CERTIFICATE-----\nMIIDUjCCAjqgAwIBAgIJAKaZFPD/cp+9MA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMQswCQYDVQQHDAJDQTEMMAoGA1UE\nCgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4LjExMC4zMzAeFw0xOTAxMDgyMDA0MDha\nFw0yMDAxMDgyMDA0MDhaMFYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9y\nbmlhMQswCQYDVQQHDAJDQTEMMAoGA1UECgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4\nLjExMC4zMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMWW1l+IJgqF\nzbm3pzIad1Oc5q33mRiF8Yw+Ytze3wZFgHNMvP7rohMFgwGvB2Uf1CX2lPCIkUop\ne0cDrnHxOLhFrrfFt+Ul2if8URQQHerP5KVcwMgGrGBtWwZe0IXNxnt73zVzjp+z\nxbFY7sdH9S3YwEOR8iXr+dOcZMj0G1qHyBd8koiTLvEijDivagQD3zY7bU4LYiwf\nxDosph5g3zRFRkaGC6Aq4dP/dNXh02W6aM6BrNkW+aWPQ1ewxP5DomQddTSpqsxr\neEG01m3y7qckNbMT/pw6hZxOsNJIfvtTwXthe9S4oAJVB/MyvfJ1QiR48oROP9TW\n1umyGEnuipUCAwEAAaMjMCEwHwYDVR0RBBgwFoIOMTkyLjE2OC4xMTAuMzOHBMCo\nbiEwDQYJKoZIhvcNAQELBQADggEBABmbtP5ETf6PHuAaMuhJPpiQiDJM6GJhTXt3\nOK0PwxfVFGitnSPLr9MbQ5LQDTGrZS9Aysv5eY5MNCG/zR3xOatkBQp5sIzWjP/W\nhBI9RQNYwTI1EmTc3aZyd8hy6bLInjeIXu+mMY6f1GAbDCc2qSo6rwfxH+qGFGcY\ndosbiNIpzBVyRWXYgrKwjRVUkqC4oXWOdC7LWUDYo6G+yneqeKoXyuHULr9FdeVa\nSD2osuLtVAXKy3UdDFyRReVRtaDAQIu/qL5MinkdAjwRbM3Gw5sqsapC76JfNp7B\nrkaMIk1Agt9XLAZhEhQRwfGEpGaPvRoZgXO+sfn2uPQ/ZDM2aHw=\n-----END CERTIFICATE-----\n"
+  nsx_password: VMware1!
+  nsx_ca_certificate: "-----BEGIN CERTIFICATE-----\nMIIDVzCCAj+gAwIBAgIJAIQV+XRxxFlMMA0GCSqGSIb3DQEBCwUAMFYxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMQswCQYDVQQHDAJDQTEMMAoGA1UE\nCgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4LjExMC4zMzAeFw0xOTAxMzAxODIzMTFa\nFw0yMDAxMzAxODIzMTFaMFYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9y\nbmlhMQswCQYDVQQHDAJDQTEMMAoGA1UECgwDTlNYMRcwFQYDVQQDDA4xOTIuMTY4\nLjExMC4zMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKVBqr+gPzZS\nyJcqravOTIgOhUK2zET2qE/EjtVpxJdkiF83RuYltsyU4z0UaNCikNPi3OfHHWDj\n0pkvASFDYVA9smBREcLyHhrEN165vZQC2owPPAXeCHKxnDe8wBQAu2oHQ9Ex3LTN\naNpY9Wjxyb0scZadIeHvKJ8chqbpGB4eAMGfu+BxHQ3wGPHEq/XMyyBtdXrdVDZV\nM6YVUxhBIn3g9JT/HUhQYQM8dG49XrfzGyydtZj88i699khg1APJBPzJUqeQVe+T\n5DBemIRVBzi5iJHiezdyscEf0uuZXEZABu40WYAJCWGI3eHe1PbRjQarnsVbGKNk\niqurZrdJ+m8CAwEAAaMoMCYwJAYDVR0RBB0wG4ITbnN4Yy0wMWEuY29ycC5sb2Nh\nbIcEwKhuITANBgkqhkiG9w0BAQsFAAOCAQEAR5rgL9Q42z5c33P5vDetLzeRA65O\nUSOBysXxOFbkvryzrXeREHAehfChwgBgp1Z78eBTjwuOuUcDDSWr4PyOqD89POwJ\n+CXRsTLsEW+nF8bqyiaT/gT7GgyzrTVNEqKj+ntmCM9IWeV9IsAV8VUB3g8n2c80\nWU11P0rCASjAwGI8jKANYH4pbAnBJGAL18lDl4L4Ws7F0CV1TPvp/3jMt/Iu5cIv\nbzRNV7hy3IXuUz+j19RkYKYNRmtPlZ7+/9lv4ES0/MRpagYjuVpfgt0ZZKkWMuxV\nGoEUhaJLllEfU7ZfBLHJggFOdSz7lVhdLZRXED7a/DDgdjHk8CqYlW2TUw==\n-----END CERTIFICATE-----\n"
   bosh_vm_folder: pks_vms
   bosh_template_folder: pks_templates
   bosh_disk_path: pks_disk
@@ -22,27 +22,32 @@ director-configuration:
   post_deploy_enabled: true
   bosh_recreate_on_next_deploy: true
 az-configuration:
-  - name: pks-az-1
-    cluster: RegionA01-MGMT
+  - name: mgmt_az
+    cluster: RegionA01-K8s
     resource_pool: Pks-rp1
-  - name: pks-az-2
-    cluster: 
-    resource_pool: 
+  - name: compt_az1
+    cluster: RegionA01-K8s
+    resource_pool: Pks-rp3
+  - name: compt_az2
+    cluster: RegionA01-K8s
+    resource_pool: Pks-rp3
 networks-configuration:
-  icmp_checks_enabled: False
+  icmp_checks_enabled: false
   networks:
-  - name: opsman-network
+  - name: Opsman-Network
     service_network: false
     subnets:
-    - iaas_identifier: ESXi-RegionA01-vDS-COMP
-      cidr: 192.168.110.0/24
-      reserved_ip_ranges: 192.168.110.0-192.168.110.100, 192.168.110.150-192.168.110.255
+    - iaas_identifier: Logical Overlay Switch
+      cidr: 172.16.10.0/24
+      reserved_ip_ranges: 172.16.10.1-172.16.10.20
       dns: 192.168.110.10
-      gateway: 192.168.110.1
+      gateway: 172.16.10.1
       availability_zone_names:
-      - pks-az-1      
+      - mgmt_az
+      - compt_az1 
+      - compt_az2
 network-assignment:
   singleton_availability_zone:
-    name: pks-az-1
+    name: mgmt_az
   network:
-    name: opsman-network
+    name: Opsman-Network

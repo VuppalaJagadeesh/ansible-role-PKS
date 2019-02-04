@@ -11,7 +11,7 @@
      datacenter: "{{ vcenter_datacenter }}"
      datastore: "{{ ops_datastore }}"
      network: "{{ ops_vm_network }}"
-     cluster: "{{mgmt_cluster_name}}"     
+     cluster: "{{compute_cluster_name}}"     
      dns_server: "{{ dns_server }}"
      ntp_server: "{{ ntp_servers }}"
      gateway: "{{ ops_gw }}"
@@ -129,6 +129,8 @@
   tags:
     - pks_deploy
 
+
+
   
 - name: Deploy PKS(this will take some time)
   tags:
@@ -137,4 +139,8 @@
      ops_manager_ip: "{{ ops_ip }}"
      ops_user: "{{ ops_username }}"     
      ops_password: "{{ ops_admin_password }}"
+  
 
+     
+
+          
