@@ -1,7 +1,15 @@
 - name: Validate inputs
   tags:
     - pks_deploy
-  input_validation:
+  input_validation: 
+
+- name: Find Ops installer     
+  tags:
+    - pks_deploy
+  find:
+    paths: /var/www/html/downloads/
+    patterns: "pcf*.ova"
+  register: ops_ova
 
 - name: Deploy Ops Manager OVA
   tags:
@@ -17,9 +25,8 @@
      gateway: "{{ ops_gw }}"
      ip_address: "{{ ops_ip }}"
      netmask: "{{ nsx_manager_subnetmask }}"
-     admin_password: "{{ ops_admin_password }}"
-     path_to_ova: "/var/www/html/downloads"
-     ova_file: "pcf-vsphere-2.3-build.194.ova"
+     admin_password: "{{ ops_admin_password }}"     
+     ova_file: "{{ ops_ova.files[0].path }}"
      vcenter: "{{vcenter_host_ip}}"
      vcenter_user: "{{vcenter_user}}"
      vcenter_passwd: "{{vcenter_pwd}}"
@@ -65,6 +72,22 @@
      ops_user: "{{ ops_username }}"     
      ops_password: "{{ ops_admin_password }}"
 
+- name: Find PKS binary     
+  tags:
+    - pks_deploy
+  find:
+    paths: /var/www/html/downloads/
+    patterns: "pivotal*.pivotal"
+  register: pks_binary
+
+- name: Find PKS stemcell    
+  tags:
+    - pks_deploy
+  find:
+    paths: /var/www/html/downloads/
+    patterns: "bosh-stemcell*xenial*.tgz"
+  register: pks_stemcell
+
 - name: Upload PKS and stemcell
   tags:
     - pks_deploy
@@ -72,6 +95,8 @@
      ops_manager_ip: "{{ ops_ip }}"
      ops_user: "{{ ops_username }}"         
      ops_password: "{{ ops_admin_password }}"
+     pks_binary: "{{ pks_binary.files[0].path }}"
+     pks_stemcell: "{{ pks_stemcell.files[0].path }}"
 
 - name: Stage PKS
   tags:
