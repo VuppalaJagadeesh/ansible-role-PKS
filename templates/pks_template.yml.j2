@@ -36,8 +36,15 @@ product-properties:
     value: {{ dns_server }}
   .properties.network_selector.nsx.nsx-t-host:
     value: {{ nsx_manager_ip }}
-  .properties.network_selector.nsx.nsx-t-insecure:
+{% if pks_topology == 'NAT' %}
+  .properties.network_selector.nsx.nat_mode:
     value: true
+{% else %}
+  .properties.network_selector.nsx.nat_mode:
+    value: false
+{% endif %}
+  .properties.network_selector.nsx.nsx-t-insecure:
+    value: "{{ pks_tile_nsx_skip_ssl_verification }}"
   .properties.network_selector.nsx.nsx-t-ca-cert:
     value: "{{ lookup('file', '/tmp/ca_edited.log') }}"
   .properties.network_selector.nsx.t0-router-id:
