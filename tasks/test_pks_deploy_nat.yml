@@ -38,7 +38,7 @@
      vcenter: "{{vcenter_host_ip}}"
      vcenter_user: "{{vcenter_user}}"
      vcenter_passwd: "{{vcenter_pwd}}"
-     ops_manager_ip: "{{ dnat_translated_ip_for_opsmgr }}"
+     ops_manager_ip: "{{ dnat_destination_ip_for_opsmgr }}"
      ops_user: "{{ ops_username }}"     
      ops_password: "{{ ops_admin_password }}"
      decryption_passphrase: "{{ ops_decryption_password }}"
@@ -68,7 +68,7 @@
   tags:
     - pks_deploy_nat
   ops_manager_configure_bosh:
-     ops_manager_ip: "{{ dnat_translated_ip_for_opsmgr }}"
+     ops_manager_ip: "{{ dnat_destination_ip_for_opsmgr }}"
      ops_user: "{{ ops_username }}"     
      ops_password: "{{ ops_admin_password }}"
 
@@ -92,7 +92,7 @@
   tags:
     - pks_deploy_nat
   ops_manager_upload_pks_stemcell:
-     ops_manager_ip: "{{ dnat_translated_ip_for_opsmgr }}"
+     ops_manager_ip: "{{ dnat_destination_ip_for_opsmgr }}"
      ops_user: "{{ ops_username }}"         
      ops_password: "{{ ops_admin_password }}"
      pks_binary: "{{ pks_binary.files[0].path }}"
@@ -102,7 +102,7 @@
   tags:
     - pks_deploy_nat
   ops_manager_stage_pks:
-     ops_manager_ip: "{{ dnat_translated_ip_for_opsmgr }}"
+     ops_manager_ip: "{{ dnat_destination_ip_for_opsmgr }}"
      ops_user: "{{ ops_username }}"  
      ops_password: "{{ ops_admin_password }}"
 
@@ -110,7 +110,7 @@
   tags:
     - pks_deploy_nat
   ops_manager_generate_rsa:
-     ops_manager_ip: "{{ dnat_translated_ip_for_opsmgr }}"
+     ops_manager_ip: "{{ dnat_destination_ip_for_opsmgr }}"
      ops_user: "{{ ops_username }}"   
      ops_password: "{{ ops_admin_password }}"
      pks_domain: "{{ pks_api_hostname }}"
@@ -159,7 +159,7 @@
   tags:
     - pks_deploy_nat
   ops_manager_deploy_pks:
-     ops_manager_ip: "{{ dnat_translated_ip_for_opsmgr }}"
+     ops_manager_ip: "{{ dnat_destination_ip_for_opsmgr }}"
      ops_user: "{{ ops_username }}"     
      ops_password: "{{ ops_admin_password }}"
   
