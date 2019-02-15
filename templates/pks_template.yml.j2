@@ -44,13 +44,13 @@ product-properties:
     value: false
 {% endif %}
   .properties.network_selector.nsx.nsx-t-insecure:
-    value: "{{ pks_tile_nsx_skip_ssl_verification }}"
+    value: {{ pks_tile_nsx_skip_ssl_verification }}
   .properties.network_selector.nsx.nsx-t-ca-cert:
     value: "{{ lookup('file', '/tmp/ca_edited.log') }}"
   .properties.network_selector.nsx.t0-router-id:
     value: "{{ lookup('file', '/tmp/t0_router_id') }}"
   .properties.network_selector.nsx.vcenter_cluster:
-    value: {{ mgmt_cluster_name }}
+    value: {{ bosh_mgmt_cluster_name }}
 {% if plan == '1' %}
   .properties.plan1_selector:
     value: Plan Active

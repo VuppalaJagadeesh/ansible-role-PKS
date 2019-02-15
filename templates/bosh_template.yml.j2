@@ -23,7 +23,7 @@ director-configuration:
   bosh_recreate_on_next_deploy: true
 az-configuration:
   - name: {{ mgmt_az_name }}
-    cluster: {{ mgmt_cluster_name }}
+    cluster: {{ bosh_mgmt_cluster_name }}
     resource_pool: {{ mgmt_rp }}
 {% if compute_az == '1' %}
   - name: {{ compute_az_1_name }}
